@@ -1,0 +1,35 @@
+/* Navbar.css */
+
+.navbar {
+    background-color: #333; /* Background color for the navbar */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    color: white; /* Text color for the logo text */
+  }
+  
+  .logo img {
+    width: 40px; /* Adjust the logo image size as needed */
+    height: 40px;
+    margin-right: 0.5rem;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-link {
+    margin-right: 1rem; /* Adjust the spacing between links */
+    color: white; /* Text color for the links */
+    cursor: pointer;
+  }
+  
+  /* Add styles for hover effects, active link, etc., as needed */
+  
